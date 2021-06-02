@@ -19,7 +19,7 @@ public class ImageDemo {
 		 List<String> imageLocations = List.of(BASEDIR + File.separator + "image.jpg");
 		 
 		 
-		 List<Image> imgList = new ArrayList<Image>();
+		 List<Image> imgList = new ArrayList<>();
 		 for(String loc: imageLocations) {
 		 Image currentImg = ImageIO.read(new File(loc));
 		 imgList.add(currentImg);
