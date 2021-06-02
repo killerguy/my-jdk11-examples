@@ -2,8 +2,7 @@ package com.mukul.jdk9.reactive;
 
 import java.util.concurrent.Flow.Subscriber;
 import java.util.concurrent.Flow.Subscription;
-
-import com.journaldev.reactive.beans.Employee;
+import com.mukul.jdk9.reactive.Employee;
 
 public class MySubscriber implements Subscriber<Employee> {
 
